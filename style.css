@@ -165,22 +165,26 @@ header {
     background-image: url(restaurant-love-romantic-dinner.jpg);
     background-size: cover;
     background-position-y: -100px;
+    background-repeat: no-repeat;
 }
 
 .section5_img2 {
     background-image: url(pexels-photo-5491337.jpeg);
     background-size: cover;
     background-position-y: -400px;
+    background-repeat: no-repeat;
 }
 
 .section5_img3 {
     background-image: url(pexels-photo-2762942.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section5_img4 {
     background-image: url(pexels-marta-dzedyshko-2067396.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section5 {
@@ -288,6 +292,18 @@ header {
 
     .section5_img2 {
         height: 400px;
-        background-position-y: -400px;
+        background-position-y: -100px;
+    }
+
+    .section5_img1 {
+        background-position-y: 0;
+    }
+
+    .section_3_img1 {
+        background-position-y: -50px;
+    }
+
+    .submit_btn {
+        width: 50% !important;
     }
 }
