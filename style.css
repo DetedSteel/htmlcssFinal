@@ -18,10 +18,52 @@ header::before {
     z-index: 0;
 }
 
+body {
+    top: 0;
+}
+
+.burder_btn {
+    position: absolute;
+    top: 30px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50%;
+    transform: translateX(-30px);
+    height: 30px;
+    z-index: 3;
+}
+
+.hiden {
+    display: none;
+}
+
+.menu {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    width: 50%;
+    color: white;
+    top: 0;
+    z-index: 3;
+}
+
+.close_btn {
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+}
+
 .header_img {
     width: 400px;
     margin-bottom: 100px;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -155,8 +197,8 @@ header {
 }
 
 .round {
-    height: 300px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
     border-radius: 100%;
     background-color: black;
     color: white;
@@ -165,10 +207,87 @@ header {
 
 .round p {
     position: absolute;
-    top: 130px;
-    left: 80px;
+    top: 120px;
+    left: 95px;
 }
 
 .section6_img {
     height: 300px;
+    width: calc(25% - 20px);
+}
+
+.section6_img2 {
+    height: 180px;
+    width: 180px;
+}
+
+@media screen and (max-width: 992px) {
+    .section6_img {
+        height: 300px;
+        width: calc(50% - 20px);
+    }
+    
+    .section6_img2 {
+        height: 180px;
+        width: 180px;
+    }
+
+    .round {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        position: relative;
+    }
+    
+    .round p {
+        position: absolute;
+        top: 80px;
+        left: 60px;
+    }
+
+    .section5_img1 {
+        background-position-y: -100px;
+        height: 600px;
+    }
+    
+    .section5_img2 {
+        height: 400px;
+        background-position-y: -700px;
+    }
+    
+    .section5_img3 {
+        height: 400px;
+        background-position-y: -100px;
+        background-size: cover;
+    }
+    
+    .section5_img4 {
+        height: 400px;
+        background-position-y: -100px;
+        background-size: cover;
+    }
+
+    .section5 {
+        height: fit-content;
+    }
+
+    .section6_round {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section6_img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .section5_img2 {
+        height: 400px;
+        background-position-y: -400px;
+    }
 }
