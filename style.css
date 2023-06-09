@@ -1,0 +1,174 @@
+header {
+    background-image: url(pexels-photo-3218467.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+header::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .3);
+    z-index: 0;
+}
+
+.header_img {
+    width: 400px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 50px !important;
+}
+
+header {
+    color: white;
+}
+
+.header_items {
+    position: relative;
+    z-index: 2;
+}
+
+.triangle {
+    width: 80px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.card_img_1 {
+    background-image: url(pexels-marta-dzedyshko-2067396.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -120px;
+}
+
+.card_img_2 {
+    background-image: url(pexels-photo-4099237.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -120px;
+}
+
+.card_img_3 {
+    background-image: url(pexels-photo-949069.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -120px;
+}
+
+.sec2_card {
+    height: 400px;
+}
+
+.my_row {
+    margin: 0!important;
+}
+
+.big_num {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.black-white_btn:hover {
+    color: white;
+    background-color: black!important;
+}
+
+.section_3_img1 {
+    height: 600px;
+    background-image: url(restaurant-love-romantic-dinner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -500px;
+}
+
+.section_3_img2 {
+    height: 600px;
+    background-image: url(pexels-photo-745988.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel_section {
+    position: relative;
+}
+
+.carousel_text {
+    position: absolute;
+    top: 200px;
+}
+
+.section_3_img1::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, .3);
+    z-index: 0;
+}
+
+.section5_img1 {
+    background-image: url(restaurant-love-romantic-dinner.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.section5_img2 {
+    background-image: url(pexels-photo-5491337.jpeg);
+    background-size: cover;
+    background-position-y: -400px;
+}
+
+.section5_img3 {
+    background-image: url(pexels-photo-2762942.jpeg);
+    background-size: cover;
+}
+
+.section5_img4 {
+    background-image: url(pexels-marta-dzedyshko-2067396.jpg);
+    background-size: cover;
+}
+
+.section5 {
+    height: 700px;
+}
+
+.section5_2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section5_1 {
+    padding-right: 0;
+}
+
+.round {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.round p {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.section6_img {
+    height: 300px;
+}
